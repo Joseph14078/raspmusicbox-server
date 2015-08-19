@@ -1,6 +1,6 @@
 # raspmusicbox Server
 
-The raspmusicbox Server provides a backend to raspmusicbox Client [LINK] and is meant to be run on a Raspberry Pi. The server can, however, be run on any computer which has the proper dependancies installed.
+The raspmusicbox Server provides a backend to [raspmusicbox Client](https://github.com/Joseph14078/raspmusicbox-client) and is meant to be run on a Raspberry Pi. The server can, however, be run on any computer which has the proper dependancies installed.
 
 ### DEPENDANCIES
 - Python 2.7 (Compatibility with older versions unknown)
