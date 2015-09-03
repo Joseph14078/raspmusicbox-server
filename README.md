@@ -3,6 +3,7 @@
 The raspmusicbox Server provides a backend to [raspmusicbox Client](https://github.com/Joseph14078/raspmusicbox-client) and is meant to be run on a Raspberry Pi. The server can, however, be run on any computer which has the proper dependancies installed.
 
 ### DEPENDANCIES
+
 - Python 2.7 (Compatibility with older versions unknown)
 - Mutagen (Python package)
 - VLC*
@@ -34,8 +35,13 @@ RED,BLUE,GREEN,TIME
 RED,BLUE,GREEN,TIME
 ...
 ```
-The red, green, and blue values are on a scale of 0 to 255. The time given will be the time taken to fade **into** that color from the previous one. **Make sure to not include any spaces, stray newlines, or unnecessary characters anywhere, otherwise it'll break stuff.**
+The red, green, and blue values are on a scale of 0 to 255. The time given will be the time taken to fade **into** that color from the previous one in seconds. **Make sure to not include any spaces, stray newlines, or unnecessary characters anywhere, otherwise it'll break stuff.**
 
 ### TO-DO
 - Clean up code, a lot.
 - Figure out why nobody wants to play MP3s in Python
+
+## LIBRARIES USED
+
+- [simple-websocket-server](https://github.com/dpallot/simple-websocket-server)
+- [VLC Python Bindings](https://wiki.videolan.org/Python_bindings)
